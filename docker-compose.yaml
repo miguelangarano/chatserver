@@ -1,0 +1,24 @@
+version: "3"
+
+services:
+  chatapp:
+    image: golang:latest
+    working_dir: /src
+    volumes:
+      - ./:/src
+    ports:
+      - 3000:3000
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: password
+    entrypoint: sleep infinity
+  mongo:
+    image: mongo:latest
+    restart: always
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongodb:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: password
