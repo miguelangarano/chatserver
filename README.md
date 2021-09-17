@@ -22,3 +22,6 @@ To build the application you can do the following:
 [] Can you create an api endpoint http://localhost:3000/logs that properly returns the log text in json format?
 [] Can you create some kind of golang test to show your application works?
 [] Can you create a script that uploads data to the mongo database and test your function?
+
+
+## Download Mongo Database
