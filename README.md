@@ -25,3 +25,5 @@ To build the application you can do the following:
 
 
 ## Download Mongo Database
+You can download the MongoDB config from this link:
+https://drive.google.com/file/d/1cUpoX8Hdn31gdl1md53EWmvX9Xnd_4aW/view?usp=sharing
